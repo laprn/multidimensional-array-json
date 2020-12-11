@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup as bs
 import json
 
-isbn = '9784065144350'
+isbn = '4774198765'.replace('-', '')
+print(isbn)
 key = 'AIzaSyDXBxe_sCjrhhFPEGphgTfehrKDs-17aFQ'
 base_url = 'https://www.googleapis.com/books/v1/volumes?q=isbn:'
 
